@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  font-family: "Inter";
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 27px;
+  margin: 0 7px 0 26px;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+  animation: logo-spin infinite 20s linear;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.navbar {
+  width: 550px;
+  height: 91px;
+  background: #21222a;
+  display: flex;
+  align-items: center;
+}
+
+.navbar > h3 {
+  font-weight: 700;
+  font-size: 22.2535px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+  text-align: left;
+
+  color: #61dafb;
+}
+
+.project-name {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 10px 0 0;
+}
+
+.project-name > h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #deebf8;
+}
+
+.main-content {
+  height: 459px;
+  width: 550px;
+  background: #282d35;
+  padding: 57px 99px 0 27px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+}
+
+.main-content > h1 {
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+
+ul li::marker {
+  font-size: 20px;
+  color: #61dafb;
+}
+
+li {
+  margin-bottom: 20.36px;
+}
